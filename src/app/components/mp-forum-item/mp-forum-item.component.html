@@ -1,0 +1,6 @@
+<div class="container">
+  <h3>{{post.title}}</h3>
+  <h2>{{post.text}}</h2>
+  <img [src] = "post.image"/>
+  <a class="nav-link" style="font-size: 20px" [routerLink]="['posts/',post.id]">More info</a>
+</div>
